@@ -75,7 +75,7 @@ scroll-snap-type: x mandatory ;
 .carousel__item {
   /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
-  flex: 260px ;
+  flex:0 0 260px ;
  scroll-snap-align: center ;
 }
 
